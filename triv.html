@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звільнення від тривожності - Негайна допомога в Україні 2025</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Кастомні стилі та анімації */
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Анімація пульсації для кнопок (оновлено на помаранчевий) */
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 20px 10px rgba(249, 115, 22, 0);
+            }
+        }
+        .animate-pulse-orange {
+            animation: pulse 2s infinite;
+        }
+        /* Стилізація маркерів списку (оновлено на помаранчевий) */
+        .custom-list li::before {
+            content: '✗';
+            color: #f97316; /* orange-500 */
+            font-weight: bold;
+            display: inline-block;
+            width: 1.5em;
+            margin-left: -1.5em;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Блок 1: HERO (Головний екран) -->
+    <section id="hero" class="min-h-screen bg-gray-900 bg-cover bg-center flex items-center justify-center text-center" style="background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 1)), url('https://placehold.co/1920x1080/000000/FFFFFF?text=Тривожний+фон');">
+        <div class="container mx-auto px-4 py-16">
+            <h1 class="font-montserrat text-4xl md:text-6xl lg:text-7xl font-black uppercase text-orange-500 mb-4 animate-fade-in-down">
+                СТОП! Ваша тривожність може <span class="text-white">ЗНИЩИТИ</span> ваше життя ЩЕ СЬОГОДНІ!
+            </h1>
+            <p class="text-lg md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8">
+                Кожну хвилину тисячі українців втрачають роботу, сім'ї та здоров'я через неконтрольовану тривожність. Ви теж у зоні ризику?
+            </p>
+            <a href="#form" class="inline-block bg-orange-600 text-white font-montserrat font-bold text-xl md:text-2xl px-8 py-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 animate-pulse-orange">
+                ПЕРЕВІРИТИ СВІЙ СТАН ЗАРАЗ ЖЕ - БЕЗКОШТОВНО!
+            </a>
+        </div>
+    </section>
+
+    <!-- Блок 2: ЗАГОСТРЕННЯ БОЛЮ -->
+    <section id="symptoms" class="py-16 md:py-24 bg-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-montserrat text-3xl md:text-5xl font-bold mb-10">Розпізнайте <span class="text-orange-500">НЕБЕЗПЕЧНІ</span> симптоми, поки не пізно:</h2>
+            <div class="flex flex-wrap justify-center items-start gap-8">
+                <!-- Список симптомів -->
+                <div class="w-full md:w-1/2 lg:w-1/3 text-left">
+                    <ul class="text-lg md:text-xl space-y-4 custom-list pl-6">
+                        <li>Серцебиття і задишка без причини</li>
+                        <li>Безсоння і кошмари кожну ніч</li>
+                        <li>Неможливість зосередитися на роботі</li>
+                        <li>Постійне відчуття загрози і небезпеки</li>
+                        <li>Уникнення людей і соціальних ситуацій</li>
+                        <li>Втрата контролю над емоціями</li>
+                        <li>Думки про смерть і безпорадність</li>
+                    </ul>
+                </div>
+                <!-- Інфографіка -->
+                <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center">
+                    <img src="https://placehold.co/400x600/1F2937/F97316?text=Силует+з+помаранчевими+спалахами" alt="Інфографіка симптомів" class="rounded-lg shadow-2xl border-2 border-orange-500">
+                </div>
+            </div>
+            <p class="font-montserrat text-xl md:text-2xl font-bold text-orange-500 mt-12 max-w-3xl mx-auto bg-gray-900 p-6 rounded-lg border border-orange-600">
+                Якщо у вас є хоча б 3 з цих симптомів - ваш стан КРИТИЧНИЙ. Без негайного втручання це призведе до повного життєвого колапсу.
+            </p>
+        </div>
+    </section>
+
+    <!-- Блок 3: СТАТИСТИКА ЖАХУ -->
+    <section id="stats" class="py-16 md:py-24 bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-montserrat text-3xl md:text-5xl font-bold mb-12">ШОКУЮЧА правда про тривожність в Україні 2025:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg border border-orange-700">
+                    <p class="font-montserrat text-6xl font-black text-orange-500">78%</p>
+                    <p class="mt-2 text-lg">українців страждають від тривожних розладів</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-orange-700">
+                    <p class="font-montserrat text-6xl font-black text-orange-500">43%</p>
+                    <p class="mt-2 text-lg">втратили роботу через панічні атаки</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-orange-700">
+                    <p class="font-montserrat text-6xl font-black text-orange-500">67%</p>
+                    <p class="mt-2 text-lg">зруйнували стосунки через неконтрольовану тривожність</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-orange-700">
+                    <p class="font-montserrat text-6xl font-black text-orange-500">89%</p>
+                    <p class="mt-2 text-lg">НЕ отримують потрібну допомогу вчасно</p>
+                </div>
+            </div>
+            <p class="font-montserrat text-2xl md:text-3xl font-bold mt-12">Не станьте частиною цієї статистики. Діяти потрібно <span class="text-orange-500 underline">ЗАРАЗ!</span></p>
+        </div>
+    </section>
+    
+    <!-- Блок 4: ОСОБИСТА ІСТОРІЯ / КЕЙС -->
+    <section id="case-study" class="py-16 md:py-24 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="font-montserrat text-3xl md:text-5xl font-bold text-center mb-10">Історія Олени з Києва: від панічних атак до повного життєвого краху за 6 місяців</h2>
+            <div class="bg-gray-900 p-8 rounded-lg shadow-xl max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row gap-8 items-center">
+                    <div class="md:w-2/3">
+                        <p class="mb-4">"Все почалося з безсоння. Потім - постійний страх вийти з дому. Я втратила роботу, чоловік пішов, бо не міг витримати моїх істерик. Я залишилась сама, в боргах, з думками, що краще б мене не було..."</p>
+                        <p class="font-bold">Олена ігнорувала перші симптоми, сподіваючись, що "саме пройде". Через півроку її життя було зруйноване.</p>
+                    </div>
+                    <div class="md:w-1/3 flex gap-4">
+                        <img src="https://placehold.co/200x250/374151/FFFFFF?text=Фото+ДО" alt="Фото до" class="rounded-lg w-1/2">
+                        <img src="https://placehold.co/200x250/111827/F97316?text=Фото+ПІСЛЯ" alt="Фото після" class="rounded-lg w-1/2 border-2 border-orange-500">
+                    </div>
+                </div>
+                <p class="font-montserrat text-xl text-orange-500 font-bold text-center mt-6">Олена думала, що справиться сама. Помилилася. Не повторюйте її помилок.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 5: РІШЕННЯ (перехід до надії) -->
+    <section id="solution" class="py-16 md:py-24 bg-gray-100 text-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-montserrat text-4xl md:text-6xl font-black text-green-600 mb-4">АЛЕ! Є вихід.</h2>
+            <p class="font-montserrat text-2xl md:text-4xl font-bold mb-8">І він простіший, ніж ви думаєте.</p>
+            <p class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto">Наша студія вже <span class="font-bold text-green-700">врятувала 2,847 українців</span> від тривожності. Ваша черга!</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <div class="text-5xl font-black text-green-500 mb-4">1</div>
+                    <h3 class="text-2xl font-bold mb-2">Безкоштовна 15-хвилинна діагностика</h3>
+                    <p>ПРЯМО ЗАРАЗ визначимо корінь вашої проблеми.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <div class="text-5xl font-black text-green-500 mb-4">2</div>
+                    <h3 class="text-2xl font-bold mb-2">Персональний план звільнення</h3>
+                    <p>Створимо покрокову стратегію повернення до спокійного життя.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <div class="text-5xl font-black text-green-500 mb-4">3</div>
+                    <h3 class="text-2xl font-bold mb-2">Швидкий результат</h3>
+                    <p>Відчуйте перші полегшення вже за 7 днів.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- НОВИЙ БЛОК: КОМАНДА -->
+    <section id="team" class="py-16 md:py-24 bg-gray-200 text-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="font-montserrat text-3xl md:text-5xl font-bold text-center mb-4">Познайомтеся з нашою командою експертів</h2>
+            <p class="text-xl text-center text-gray-600 mb-12">Саме ці спеціалісти допомогли вже більш ніж 2000 українцям повернути спокій.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Спеціаліст 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://placehold.co/150x150/CCCCCC/FFFFFF?text=Фото" alt="Фото спеціаліста" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-green-500">
+                    <h3 class="font-montserrat text-2xl font-bold">Олена Петренко</h3>
+                    <p class="text-green-600 font-semibold mb-2">Головний психолог, 12 років досвіду</p>
+                    <p class="text-gray-600">Спеціалізується на роботі з ПТСР та панічними атаками. Автор унікальної методики швидкого відновлення.</p>
+                </div>
+                <!-- Спеціаліст 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://placehold.co/150x150/CCCCCC/FFFFFF?text=Фото" alt="Фото спеціаліста" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-green-500">
+                    <h3 class="font-montserrat text-2xl font-bold">Андрій Ковальчук</h3>
+                    <p class="text-green-600 font-semibold mb-2">Кризовий психолог</p>
+                    <p class="text-gray-600">Допомагає впоратися з гострими стресовими станами та знайти внутрішні ресурси для боротьби.</p>
+                </div>
+                <!-- Спеціаліст 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://placehold.co/150x150/CCCCCC/FFFFFF?text=Фото" alt="Фото спеціаліста" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-green-500">
+                    <h3 class="font-montserrat text-2xl font-bold">Ірина Шевченко</h3>
+                    <p class="text-green-600 font-semibold mb-2">Спеціаліст з тривожних розладів</p>
+                    <p class="text-gray-600">Працює з соціальною тривожністю, фобіями та допомагає повернути впевненість у собі.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 6: СОЦІАЛЬНІ ДОКАЗИ -->
+    <section id="reviews" class="py-16 md:py-24 bg-gray-100 text-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="font-montserrat text-3xl md:text-5xl font-bold text-center mb-12">Вони скептично ставилися... Поки не спробували:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Відгук 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://placehold.co/80x80/CCCCCC/FFFFFF?text=Марія" alt="Марія" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <p class="font-bold text-lg">Марія, 34 роки</p>
+                            <div class="flex text-yellow-400">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="italic">"Я думала, що панічні атаки зі мною назавжди. Після діагностики та перших кроків вони пройшли за тиждень! Я в шоці!"</p>
+                </div>
+                <!-- Відгук 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://placehold.co/80x80/CCCCCC/FFFFFF?text=Андрій" alt="Андрій" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <p class="font-bold text-lg">Андрій, 41 рік</p>
+                            <div class="flex text-yellow-400">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="italic">"Нарешті сплю спокійно, без кошмарів і пробуджень серед ночі. Це повернуло мені сили жити і працювати."</p>
+                </div>
+                <!-- Відгук 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://placehold.co/80x80/CCCCCC/FFFFFF?text=Оксана" alt="Оксана" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <p class="font-bold text-lg">Оксана, 29 років</p>
+                            <div class="flex text-yellow-400">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="italic">"Моя тривожність ледь не зруйнувала наш шлюб. Дякую, що допомогли не тільки мені, а й врятували мою сім'ю."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 7: ТЕРМІНОВІСТЬ -->
+    <section id="urgency" class="py-16 bg-orange-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-montserrat text-4xl md:text-6xl font-black uppercase mb-4">УВАГА!</h2>
+            <p class="text-2xl md:text-3xl font-bold mb-6">Безкоштовних слотів на сьогодні залишилося тільки <span class="bg-white text-orange-700 px-3 py-1 rounded">7</span>!</p>
+            <div id="timer" class="text-4xl md:text-6xl font-montserrat font-bold mb-6">
+                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+            </div>
+            <p class="text-lg max-w-2xl mx-auto">Ми приймаємо тільки 15 людей на день для якісної роботи. Не втратьте свій шанс отримати допомогу, поки є вільні місця!</p>
+        </div>
+    </section>
+
+    <!-- Блок 8: ФОРМА ЗАПИСУ -->
+    <section id="form" class="py-16 md:py-24 bg-gray-100 text-gray-800">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <div class="bg-white p-8 md:p-12 rounded-lg shadow-2xl">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center mb-6">ЗАПИШІТЬСЯ на діагностику ЗАРАЗ:</h2>
+                <form id="consultation-form">
+                    <div class="mb-4">
+                        <label for="name" class="block text-lg font-semibold mb-2">Ім'я*</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="phone" class="block text-lg font-semibold mb-2">Телефон*</label>
+                        <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-lg font-semibold mb-2">Зручний месенджер</label>
+                        <div class="flex flex-wrap gap-4">
+                            <label class="flex items-center">
+                                <input type="radio" name="messenger" value="telegram" class="h-5 w-5 text-green-600 focus:ring-green-500">
+                                <span class="ml-2">Telegram</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="messenger" value="viber" class="h-5 w-5 text-green-600 focus:ring-green-500">
+                                <span class="ml-2">Viber</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="messenger" value="whatsapp" class="h-5 w-5 text-green-600 focus:ring-green-500">
+                                <span class="ml-2">WhatsApp</span>
+                            </label>
+                        </div>
+                    </div>
+                     <div class="mb-6">
+                        <label for="comment" class="block text-lg font-semibold mb-2">Коментар (опціонально)</label>
+                        <textarea id="comment" name="comment" rows="3" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Коротко опишіть, що вас турбує"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-orange-600 text-white font-montserrat font-bold text-xl md:text-2xl py-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 animate-pulse-orange">
+                        ОТРИМАТИ ДОПОМОГУ НЕГАЙНО - БЕЗКОШТОВНО!
+                    </button>
+                    <button type="button" class="mt-4 w-full bg-blue-500 text-white font-montserrat font-bold text-lg py-3 rounded-lg shadow-lg flex items-center justify-center gap-2 transition-transform transform hover:scale-105">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23l7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3L3.64 12c-.88-.25-.89-1.37.2-1.64l16.46-6.1c.89-.32 1.68.28 1.43 1.25l-2.5 12.08c-.24.93-1 .9-1.5.43l-3.89-3.32l-1.87 1.82c-.24.24-.45.46-.8.46l.05-3.9z"></path></svg>
+                        Швидкий запис через Telegram
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 9: ГАРАНТІЇ -->
+    <footer id="guarantees" class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-montserrat text-3xl font-bold mb-8">Наші ГАРАНТІЇ:</h2>
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 text-lg">
+                <p class="flex items-center">
+                    <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    100% конфіденційність
+                </p>
+                <p class="flex items-center">
+                    <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Безкоштовна діагностика без зобов'язань
+                </p>
+                <p class="flex items-center">
+                    <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Зв'язок протягом 5 хвилин
+                </p>
+                <p class="flex items-center">
+                    <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Працюємо цілодобово
+                </p>
+            </div>
+            <div class="mt-12 text-gray-400 text-sm">
+                <!-- Логотип додано тут -->
+                <img src="https://placehold.co/300x80/1F2937/FFFFFF?text=ВЗАЄМОДІЯ+психологічна+студія" alt="Логотип Взаємодія" class="h-12 mx-auto mb-4">
+                <p>Психологічна студія "ВЗАЄМОДІЯ". Всі права захищені. 2025</p>
+                <p>Цей сайт не надає медичних послуг. У разі гострих станів зверніться до лікаря.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- Скрипт для таймера зворотного відліку ---
+        function startCountdown() {
+            const countdownElement = document.getElementById('timer');
+            if (!countdownElement) return;
+
+            // Встановлюємо кінець відліку на кінець поточного дня
+            const now = new Date();
+            const endOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59, 999);
+            
+            let timeRemaining = endOfDay.getTime() - now.getTime();
+
+            const interval = setInterval(() => {
+                timeRemaining -= 1000;
+
+                if (timeRemaining < 0) {
+                    clearInterval(interval);
+                    countdownElement.innerHTML = "Акція завершена!";
+                    return;
+                }
+
+                const hours = Math.floor((timeRemaining / (1000 * 60 * 60)));
+                const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+
+            }, 1000);
+        }
+
+        // --- Обробка відправки форми ---
+        const form = document.getElementById('consultation-form');
+        if (form) {
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); // Запобігаємо стандартній відправці
+                
+                // Тут буде логіка відправки даних на бекенд (наприклад, через fetch)
+                // Для демонстрації просто покажемо повідомлення
+                
+                const submitButton = form.querySelector('button[type="submit"]');
+                submitButton.disabled = true;
+                submitButton.textContent = 'Відправляємо...';
+                
+                setTimeout(() => {
+                    form.innerHTML = `<div class="text-center">
+                        <h3 class="font-montserrat text-2xl font-bold text-green-600">Дякуємо! Ваша заявка прийнята!</h3>
+                        <p class="mt-2">Ми зв'яжемося з вами протягом 5 хвилин.</p>
+                    </div>`;
+                }, 1500);
+            });
+        }
+
+        // Запуск таймера при завантаженні сторінки
+        document.addEventListener('DOMContentLoaded', startCountdown);
+    </script>
+
+</body>
+</html>
